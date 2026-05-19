@@ -1,0 +1,79 @@
+# System Files
+.DS_Store                  # macOS system file
+Thumbs.db                  # Windows system file
+*.swp                      # Vim swap files
+*.swo                      # Vim swap files
+*~                         # Backup files
+.~*                        # Editor backups
+
+# Editor & IDE
+.vscode/                   # VS Code
+.idea/                     # JetBrains IDEs
+.sublime-project           # Sublime Text
+.sublime-workspace         # Sublime Text
+*.code-workspace           # VS Code workspace
+.env.local                 # Local environment variables
+
+# Node modules (if using Node.js)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json          # If added
+
+# Build & Dependencies
+dist/
+build/
+.cache/
+
+# OS Files
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+.TemporaryItems
+
+# Logs
+*.log
+logs/
+
+# Temp Files
+temp/
+tmp/
+*.tmp
+
+# Local testing
+test.html
+debug/
+
+# Asset sources (originals)
+assets-source/
+*.psd                      # Photoshop files
+*.ai                       # Illustrator files
+*.sketch                   # Sketch files
+
+# Personal info (never commit)
+.credentials
+secret.txt
+personal-notes/
+
+# Optional: Excluded files for performance
+# Uncomment if needed
+# assets/large-videos/
+# assets/original-images/
+
+# GitHub Pages specific (optional)
+_site/
+.jekyll-metadata
+
+# Backup copies
+*.bak
+*.backup
+
+# Compressed archives
+*.zip
+*.rar
+*.7z
+*.tar.gz
